@@ -1,0 +1,20 @@
+{
+  "name": "stevenhunt-me",
+  "version": "1.0.0",
+  "description": "Source code for stevenhunt.me",
+  "main": "index.js",
+  "scripts": {
+    "start": "firebase emulators:start",
+    "deploy": "firebase deploy --only hosting"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stevenmhunt/stevenhunt-me.git"
+  },
+  "author": "Steven Hunt",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/stevenmhunt/stevenhunt-me/issues"
+  },
+  "homepage": "https://github.com/stevenmhunt/stevenhunt-me#readme"
+}
