@@ -14,16 +14,6 @@
     content="Steven Hunt, cucumber, field, guide, automated testing, software, architect, developer, automation, engineer, javascript, nodejs, cucumber, gherkin, test automation, TypeScript, C#, SQL, Mongo, PHP, React"
     name="keywords" />
 
-  <!-- update the version number as needed -->
-  <script defer src="/__/firebase/9.9.0/firebase-app-compat.js"></script>
-  <!-- include only the Firebase features as you need -->
-  <script defer src="/__/firebase/9.9.0/firebase-analytics-compat.js"></script>
-  <!-- 
-  initialize the SDK after all desired features are loaded, set useEmulator to false
-  to avoid connecting the SDK to running emulators.
--->
-  <script defer src="/__/firebase/init.js?useEmulator=true"></script>
-
   <!-- Favicons -->
   <link href="../assets/img/favicon.png" rel="icon" />
 
@@ -186,6 +176,14 @@
 
   <!-- Template Main JS File -->
   <script src="../assets/js/main.js"></script>
+
+  <script src="/__/firebase/9.9.0/firebase-app-compat.js"></script>
+  <script src="/__/firebase/9.9.0/firebase-analytics-compat.js"></script>
+  <script src="/__/firebase/init.js?useEmulator=true"></script>
+  <script type="text/javascript">
+      var app = firebase.app();
+      firebase.analytics();
+  </script>
 </body>
 
 </html>
